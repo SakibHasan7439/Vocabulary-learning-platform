@@ -1,0 +1,51 @@
+[
+    { 
+    "lesson_no": 1, 
+    "word": "amor" 
+    },
+
+    { 
+    "lesson_no": 2,
+    "word": "casa"
+    },
+
+    { 
+    "lesson_no": 3,
+    "word": "feliz" 
+    },
+
+    { 
+    "lesson_no": 4, 
+    "word": "comida" 
+    },
+
+    { 
+    "lesson_no": 5,
+     "word": "viaje" 
+    },
+
+    { 
+    "lesson_no": 6,
+     "word": "amistad" 
+    },
+
+    { 
+    "lesson_no": 7, 
+    "word": "familia" 
+    },
+
+    { 
+    "lesson_no": 8, 
+    "word": "escuela" 
+    },
+
+    { 
+    "lesson_no": 9, 
+    "word": "trabajo" 
+    },
+
+    { 
+    "lesson_no": 10, 
+    "word": "ciudad" 
+    }
+  ]

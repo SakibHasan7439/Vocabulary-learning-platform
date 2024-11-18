@@ -3,6 +3,7 @@ import logo from "../assets/feature.png";
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
+import "./header.css"
 
 const Header = () => {
     const { user, signOutUser } = useContext(AuthContext);
@@ -39,7 +40,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm text-black dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm z-10 text-black dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
           >
             <NavLink to={"/"}>Home</NavLink>
             <NavLink to={"/learn"}>Start Learning</NavLink>

@@ -5,6 +5,8 @@ import Error from "../Pages/Error";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Profile from "../Pages/Profile";
+import LetsLearn from "../Pages/LetsLearn";
+import Lessons from "../Pages/Lessons";
 
 
 const Router = createBrowserRouter([
@@ -29,6 +31,18 @@ const Router = createBrowserRouter([
                 path: "/profile",
                 element: <Profile></Profile>
             },
+
+            {
+                path: "/learn",
+                element: <LetsLearn></LetsLearn>,
+                loader: ()=>fetch('/lesson_no.json')
+            },
+
+            {
+                path: "/lesson/:lesson_no",
+                element: <Lessons></Lessons>,
+                loader: ()=>fetch('/spanish_vocabulary_data.json')
+            }
         ]
     }
 ])
