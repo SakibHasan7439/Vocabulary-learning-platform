@@ -2,9 +2,20 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/feature.png";
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Header = () => {
-    const { user } = useContext(AuthContext);
+    const { user, signOutUser } = useContext(AuthContext);
+
+    const handleSignOut = () =>{
+        signOutUser()
+        .then(()=>{
+            toast.success("SignOut successful");
+        })
+        .catch((err)=>{
+            toast.error(err.message);
+        })
+    }
 
   return (
     <div className="navbar bg-blue-950 text-white">
@@ -28,7 +39,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm text-black dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <NavLink to={"/"}>Home</NavLink>
             <NavLink to={"/learn"}>Start Learning</NavLink>
@@ -54,8 +65,14 @@ const Header = () => {
       </div>
       <div className="navbar-end text-lg">
         {
-            user ? <Link >LogOut</Link>
-            : <Link to={"/login"}>Login</Link>
+            user ? <div className="flex items-center gap-3">
+                <div className="text-white">
+                    <p>Welcome</p>
+                    <p>{user.email}</p>
+                </div>
+                <Link onClick={handleSignOut} className="bg-white text-black px-4 py-2 rounded-md">LogOut</Link>
+            </div>
+            : <Link className="bg-white text-black px-4 py-2 rounded-md" to={"/login"}>Login</Link>
         }
       </div>
     </div>
