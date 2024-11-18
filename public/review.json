@@ -1,0 +1,32 @@
+[
+    {
+      "user": "John Doe",
+      "rating": 5,
+      "comment": "This platform is amazing! The lessons are clear, and the tutorials helped me understand concepts I struggled with for years. Highly recommend it to anyone looking to learn!"
+    },
+    {
+      "user": "Jane Smith",
+      "rating": 4,
+      "comment": "Great content overall, but I feel the vocabulary section could use some more examples. Still, a very useful resource!"
+    },
+    {
+      "user": "Ahmed Khan",
+      "rating": 5,
+      "comment": "Perfect for beginners and experts alike. The tutorials are well-structured, and the quizzes after lessons make learning fun."
+    },
+    {
+      "user": "Emily Johnson",
+      "rating": 4,
+      "comment": "I love the interactive approach! The lessons are concise, and the progress tracker keeps me motivated. Would love more advanced tutorials."
+    },
+    {
+      "user": "Carlos Lopez",
+      "rating": 3,
+      "comment": "It's okay. Some lessons are great, but others feel rushed. The vocabulary section, however, is top-notch!"
+    },
+    {
+      "user": "Sofia Tanaka",
+      "rating": 5,
+      "comment": "This has been a game-changer for me. The tutorials are engaging, and I love the variety of lessons available. Five stars from me!"
+    }
+]
