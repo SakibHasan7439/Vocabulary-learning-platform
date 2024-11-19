@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const VocabularyCard = ({ lesson }) => {
-  console.log(lesson);
   const {
     word,
     meaning,
@@ -12,10 +11,15 @@ const VocabularyCard = ({ lesson }) => {
     difficulty,
   } = lesson;
 
+  const handleClick = () =>{
+    const value = new SpeechSynthesisUtterance(word);
+    window.speechSynthesis.speak(value);
+  }
+
   return (
     <div className="col-span-12 mb-8 md:col-span-4 lg:col-span-3">
-      <div
-        className={`card shadow-lg rounded-md ${
+      <div onClick={handleClick}
+        className={`card shadow-lg cursor-pointer rounded-md ${
           difficulty === "difficult"
             ? "bg-red-300 shadow-red-400"
             : difficulty === "medium"

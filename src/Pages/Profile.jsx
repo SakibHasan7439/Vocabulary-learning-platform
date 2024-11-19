@@ -18,7 +18,7 @@ const Profile = () => {
         />
         <p className="md:text-xl text-sky-950 font-semibold">{user.displayName}</p>
         <p className="md:text-xl text-sky-950 mb-6 font-semibold">{user.email}</p>
-        <Link className="bg-sky-700 block mx-auto w-[80%] px-6 py-2 rounded-lg text-white">Update Profile</Link>
+        <Link to={"/updateUser"} className="bg-sky-700 block mx-auto w-[80%] px-6 py-2 rounded-lg text-white">Update Profile</Link>
       </div>
     </div>
   );

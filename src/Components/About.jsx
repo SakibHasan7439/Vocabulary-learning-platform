@@ -4,6 +4,7 @@ import CountUp from 'react-countup';
 import ClientSay from "./ClientSay";
 import Blogs from "./Blogs";
 import mission from "../assets/mission.png"
+import TextSpeech from "./TextSpeech";
 
 const About = () => {
     return (
@@ -13,6 +14,7 @@ const About = () => {
                 <h1 className="font-semibold text-xl md:text-3xl mb-4 text-center w-[80%] md:w-[35%] ">About Us</h1>
                 <hr  className="border border-black w-full"/>
             </div>
+            <TextSpeech></TextSpeech>
             <div className="bg-blue-950 text-white p-4 lg:p-8 mb-8">
                 <div className="flex gap-1">
                 <ImQuotesLeft className="text-3xl lg:7xl"></ImQuotesLeft>
