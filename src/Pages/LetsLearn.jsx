@@ -23,7 +23,7 @@ const LetsLearn = () => {
             <div className="mb-8">
                 <h2 className="text-center mb-4 font-semibold text-xl md:text-2xl">Learn with Alphabets Online tutorials</h2>
                 <div className="mb-6">
-                    <iframe className="w-full mx-auto md:w-[400px] lg:h-[500px] lg:w-[700px]"
+                    <iframe className="w-full mx-auto lg:h-[500px] md:w-[80%]"
                     height={"300px"}
                     src="https://www.youtube.com/embed/dlazjKbt40Q?si=aMPwcElVYS4nLCtX" frameBorder="0"></iframe>
                 </div>

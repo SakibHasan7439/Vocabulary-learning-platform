@@ -69,7 +69,7 @@ const Header = () => {
             user ? <div className="flex items-center gap-3">
                 <div className="text-white">
                     <p>Welcome</p>
-                    <p>{user.email}</p>
+                    <p>{user.displayName}</p>
                 </div>
                 <Link onClick={handleSignOut} className="bg-white text-black px-4 py-2 rounded-md">LogOut</Link>
             </div>

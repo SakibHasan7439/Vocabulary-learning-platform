@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const Tutorials = () => {
     return (
         <div>
             <h2 className="text-center text-2xl font-semibold md:text-3xl py-4 mb-6 md:mb-8 lg:mb-16">
                 Alphabet Adventure
             </h2>
-            <div className="grid grid-cols-12 gap-4">
+            <div className="grid grid-cols-12 gap-4 mb-6">
                 <div className="col-span-12 md:col-span-6 lg:col-span-4">
                     <iframe className="w-full"
                     height={"300px"}
@@ -68,6 +70,8 @@ const Tutorials = () => {
                      <h3 className="md:text-xl font-semibold">8. Forming Plurals in Spanish</h3>
                 </div>
             </div>
+
+            <Link className="font-semibold block mb-8 mx-auto text-center w-[200px] px-2 py-4 rounded-md bg-yellow-300" to={"/learn"}>Learn Vocabularies</Link>
         </div>
     );
 };

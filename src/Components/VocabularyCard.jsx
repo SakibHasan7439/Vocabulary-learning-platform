@@ -23,7 +23,7 @@ const VocabularyCard = ({ lesson }) => {
             : "bg-green-300"
         }`}
       >
-        <div className="card-body">
+        <div className="card-body h-[268px]">
           <h2 className="card-title text-black">Word: {word}</h2>
           <p className="font-semibold">Meaning: {meaning}</p>
           <p className="font-semibold">Pronunciation: {pronunciation}</p>

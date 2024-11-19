@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { Navigate } from "react-router-dom";
 
 const Register = () => {
-    const { registerNewAccount } = useContext(AuthContext);
+    const { registerNewAccount, updateUserProfile } = useContext(AuthContext);
     const [error, setError] = useState('');
     const regex = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
 
@@ -12,7 +12,7 @@ const Register = () => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;
-        // const photoUrl = e.target.photoUrl.value;
+        const photoUrl = e.target.photoUrl.value;
         const password = e.target.password.value;
         console.log(e.target.email);
         setError('');
@@ -28,8 +28,10 @@ const Register = () => {
 
 
         registerNewAccount(email, password)
-        .then(()=>{
+        .then((res)=>{
             toast.success('Successfully Registered');
+            console.log(res);
+            updateUserProfile(name, photoUrl);
             <Navigate to={"/"}></Navigate>
         })
         .catch((err)=>{
@@ -76,7 +78,7 @@ const Register = () => {
               <input
                 type="text"
                 placeholder="photoUrl"
-                name="PhotoUrl"
+                name="photoUrl"
                 className="input input-bordered"
               />
             </div>

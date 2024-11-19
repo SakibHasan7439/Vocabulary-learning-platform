@@ -24,9 +24,10 @@ const Login = () => {
 
     const handleSignInWithGoogle = () =>{
         signInWithGoogle()
-        .then(()=>{
+        .then((res)=>{
             <Navigate to={"/register"}></Navigate>
             toast.success("SignIn successful");
+            console.log(res);
         })
         .catch((err)=>{
             toast.error(err.message);
