@@ -9,6 +9,7 @@ import LetsLearn from "../Pages/LetsLearn";
 import Lessons from "../Pages/Lessons";
 import Tutorials from "../Pages/Tutorials";
 import PrivateRoute from "./PrivateRoute";
+import AboutUs from "../Pages/AboutUs";
 
 
 const Router = createBrowserRouter([
@@ -49,6 +50,11 @@ const Router = createBrowserRouter([
             {
                 path: "/tutorial",
                 element: <PrivateRoute><Tutorials></Tutorials></PrivateRoute>,
+            },
+
+            {
+                path: "/aboutUs",
+                element: <AboutUs></AboutUs>,
             },
         ]
     }

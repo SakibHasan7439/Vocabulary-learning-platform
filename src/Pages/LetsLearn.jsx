@@ -14,7 +14,7 @@ const LetsLearn = () => {
             <div className="grid grid-cols-12 gap-4 mb-8 md:mb-16 lg:mb-28">
                 {
                     lesson.map((data)=> <Link 
-                    key={data.word}
+                    key={data.id}
                     to={user ? `/lesson/${data.lesson_no}` : "/login"}
                      className="bg-white text-center font-bold text-xl md:text-2xl md:col-span-4 lg:col-span-3 col-span-6 px-8 w-full py-4 rounded-md shadow-md shadow-blue-950">Lesson-{data.lesson_no}</Link>)
                 }

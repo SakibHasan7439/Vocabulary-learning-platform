@@ -1,9 +1,10 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
+    const navigate = useNavigate();
     const { registerNewAccount, updateUserProfile } = useContext(AuthContext);
     const [error, setError] = useState('');
     const regex = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
@@ -32,7 +33,8 @@ const Register = () => {
             toast.success('Successfully Registered');
             console.log(res);
             updateUserProfile(name, photoUrl);
-            <Navigate to={"/"}></Navigate>
+            return navigate('/');
+            
         })
         .catch((err)=>{
             toast.error(err.message);

@@ -220,7 +220,7 @@
     "example": "Nosotros vamos al cine - We are going to the cinema."
   },
   {
-    "id": "word001",
+    "id": "word021",
     "word": "gracias",
     "pronunciation": "grah-see-ahs",
     "meaning": "thank you",
@@ -231,7 +231,7 @@
     "example": "Gracias por tu ayuda - Thank you for your help."
   },
   {
-    "id": "word002",
+    "id": "word022",
     "word": "hola",
     "pronunciation": "oh-lah",
     "meaning": "hello",
@@ -242,7 +242,7 @@
     "example": "¡Hola, ¿cómo estás? - Hello, how are you?"
   },
   {
-    "id": "word003",
+    "id": "word023",
     "word": "adiós",
     "pronunciation": "ah-dee-ohs",
     "meaning": "goodbye",
@@ -253,7 +253,7 @@
     "example": "Adiós, nos vemos mañana - Goodbye, see you tomorrow."
   },
   {
-    "id": "word004",
+    "id": "word024",
     "word": "por favor",
     "pronunciation": "pohr fah-bohr",
     "meaning": "please",
@@ -264,7 +264,7 @@
     "example": "¿Me pasas el libro, por favor? - Can you pass me the book, please?"
   },
   {
-    "id": "word005",
+    "id": "word025",
     "word": "perdón",
     "pronunciation": "pehr-dohn",
     "meaning": "sorry",
@@ -275,7 +275,7 @@
     "example": "Perdón, no te vi - Sorry, I didn’t see you."
   },
   {
-    "id": "word006",
+    "id": "word026",
     "word": "buenos días",
     "pronunciation": "bweh-nohs dee-ahs",
     "meaning": "good morning",
@@ -286,7 +286,7 @@
     "example": "¡Buenos días! ¿Cómo amaneciste? - Good morning! How did you wake up?"
   },
   {
-    "id": "word007",
+    "id": "word027",
     "word": "buenas tardes",
     "pronunciation": "bweh-nahs tahr-dehs",
     "meaning": "good afternoon",
@@ -297,7 +297,7 @@
     "example": "Buenas tardes, ¿cómo estás? - Good afternoon, how are you?"
   },
   {
-    "id": "word008",
+    "id": "word028",
     "word": "buenas noches",
     "pronunciation": "bweh-nahs noh-chehs",
     "meaning": "good evening / good night",
@@ -308,7 +308,7 @@
     "example": "Buenas noches, que descanses - Good night, rest well."
   },
   {
-    "id": "word009",
+    "id": "word029",
     "word": "sí",
     "pronunciation": "see",
     "meaning": "yes",
@@ -319,7 +319,7 @@
     "example": "¿Te gustaría venir? Sí, me encantaría. - Would you like to come? Yes, I’d love to."
   },
   {
-    "id": "word010",
+    "id": "word030",
     "word": "no",
     "pronunciation": "noh",
     "meaning": "no",
@@ -330,7 +330,7 @@
     "example": "¿Quieres más comida? No, gracias. - Do you want more food? No, thank you."
   },
   {
-    "id": "word011",
+    "id": "word031",
     "word": "¿cómo estás?",
     "pronunciation": "koh-moh ehs-tahs",
     "meaning": "how are you?",
@@ -341,7 +341,7 @@
     "example": "¿Cómo estás hoy? - How are you today?"
   },
   {
-    "id": "word012",
+    "id": "word032",
     "word": "bien",
     "pronunciation": "byen",
     "meaning": "good / well",
@@ -352,7 +352,7 @@
     "example": "Estoy bien, gracias - I’m good, thank you."
   },
   {
-    "id": "word013",
+    "id": "word033",
     "word": "mal",
     "pronunciation": "mahl",
     "meaning": "bad",
@@ -363,7 +363,7 @@
     "example": "No me siento bien, estoy mal - I don’t feel well, I’m bad."
   },
   {
-    "id": "word014",
+    "id": "word034",
     "word": "así así",
     "pronunciation": "ah-see ah-see",
     "meaning": "so-so",
@@ -374,7 +374,7 @@
     "example": "¿Cómo estás? Así así - How are you? So-so."
   },
   {
-    "id": "word015",
+    "id": "word035",
     "word": "¿y tú?",
     "pronunciation": "ee too",
     "meaning": "and you?",
@@ -385,7 +385,7 @@
     "example": "Estoy bien, gracias. ¿Y tú? - I’m good, thank you. And you?"
   },
   {
-    "id": "word016",
+    "id": "word036",
     "word": "yo",
     "pronunciation": "yo",
     "meaning": "I / me",
@@ -396,7 +396,7 @@
     "example": "Yo soy estudiante - I am a student."
   },
   {
-    "id": "word017",
+    "id": "word037",
     "word": "tú",
     "pronunciation": "too",
     "meaning": "you (informal)",
@@ -407,7 +407,7 @@
     "example": "Tú eres mi amigo - You are my friend."
   },
   {
-    "id": "word018",
+    "id": "word038",
     "word": "él",
     "pronunciation": "el",
     "meaning": "he",
@@ -418,7 +418,7 @@
     "example": "Él es mi hermano - He is my brother."
   },
   {
-    "id": "word019",
+    "id": "word039",
     "word": "ella",
     "pronunciation": "eh-yah",
     "meaning": "she",
@@ -429,7 +429,7 @@
     "example": "Ella es mi amiga - She is my friend."
   },
   {
-    "id": "word020",
+    "id": "word040",
     "word": "nosotros",
     "pronunciation": "noh-soh-troh",
     "meaning": "we",
@@ -440,7 +440,7 @@
     "example": "Nosotros vamos al cine - We are going to the cinema."
   },
   {
-    "id": "word021",
+    "id": "word041",
     "word": "comer",
     "pronunciation": "koh-mehr",
     "meaning": "to eat",
@@ -451,7 +451,7 @@
     "example": "Me gusta comer pizza - I like to eat pizza."
   },
   {
-    "id": "word022",
+    "id": "word042",
     "word": "beber",
     "pronunciation": "beh-behr",
     "meaning": "to drink",
@@ -462,7 +462,7 @@
     "example": "Quiero beber agua - I want to drink water."
   },
   {
-    "id": "word023",
+    "id": "word043",
     "word": "caminar",
     "pronunciation": "kah-mee-nahr",
     "meaning": "to walk",
@@ -473,7 +473,7 @@
     "example": "Me gusta caminar en el parque - I like to walk in the park."
   },
   {
-    "id": "word024",
+    "id": "word044",
     "word": "correr",
     "pronunciation": "koh-rehr",
     "meaning": "to run",
@@ -484,7 +484,7 @@
     "example": "Él corre todos los días - He runs every day."
   },
   {
-    "id": "word025",
+    "id": "word045",
     "word": "leer",
     "pronunciation": "leh-ehr",
     "meaning": "to read",
@@ -495,7 +495,7 @@
     "example": "Ella lee libros en su tiempo libre - She reads books in her free time."
   },
   {
-    "id": "word026",
+    "id": "word046",
     "word": "escribir",
     "pronunciation": "eh-scree-beer",
     "meaning": "to write",
@@ -506,7 +506,7 @@
     "example": "Yo escribo cartas a mis amigos - I write letters to my friends."
   },
   {
-    "id": "word027",
+    "id": "word047",
     "word": "hablar",
     "pronunciation": "ah-blahr",
     "meaning": "to speak",
@@ -517,7 +517,7 @@
     "example": "Nosotros hablamos español - We speak Spanish."
   },
   {
-    "id": "word028",
+    "id": "word048",
     "word": "escuchar",
     "pronunciation": "ehs-koo-chahr",
     "meaning": "to listen",
@@ -528,7 +528,7 @@
     "example": "Ella escucha música - She listens to music."
   },
   {
-    "id": "word029",
+    "id": "word049",
     "word": "ver",
     "pronunciation": "behr",
     "meaning": "to see",
@@ -539,7 +539,7 @@
     "example": "Veo una película esta noche - I watch a movie tonight."
   },
   {
-    "id": "word030",
+    "id": "word050",
     "word": "vivir",
     "pronunciation": "vee-beer",
     "meaning": "to live",
@@ -550,7 +550,7 @@
     "example": "Yo vivo en Madrid - I live in Madrid."
   },
   {
-    "id": "word031",
+    "id": "word051",
     "word": "trabajar",
     "pronunciation": "trah-bah-hahr",
     "meaning": "to work",
@@ -561,7 +561,7 @@
     "example": "Mi padre trabaja en una oficina - My father works in an office."
   },
   {
-    "id": "word032",
+    "id": "word052",
     "word": "estudiar",
     "pronunciation": "ehs-too-dyahr",
     "meaning": "to study",
@@ -572,7 +572,7 @@
     "example": "Ellos estudian para el examen - They study for the exam."
   },
   {
-    "id": "word033",
+    "id": "word053",
     "word": "cantar",
     "pronunciation": "kahn-tahr",
     "meaning": "to sing",
@@ -583,7 +583,7 @@
     "example": "Me gusta cantar canciones - I like to sing songs."
   },
   {
-    "id": "word034",
+    "id": "word054",
     "word": "trabajo",
     "pronunciation": "trah-bah-hoh",
     "meaning": "work",
@@ -594,7 +594,7 @@
     "example": "Tengo mucho trabajo - I have a lot of work."
   },
   {
-    "id": "word035",
+    "id": "word055",
     "word": "escuela",
     "pronunciation": "ehs-kweh-lah",
     "meaning": "school",
@@ -605,7 +605,7 @@
     "example": "La escuela empieza a las 8 - School starts at 8."
   },
   {
-    "id": "word036",
+    "id": "word056",
     "word": "libro",
     "pronunciation": "lee-broh",
     "meaning": "book",
@@ -616,7 +616,7 @@
     "example": "Estoy leyendo un libro interesante - I am reading an interesting book."
   },
   {
-    "id": "word037",
+    "id": "word057",
     "word": "película",
     "pronunciation": "peh-lee-koo-lah",
     "meaning": "movie",
@@ -627,7 +627,7 @@
     "example": "Vamos a ver una película esta noche - We are going to watch a movie tonight."
   },
   {
-    "id": "word038",
+    "id": "word058",
     "word": "jugar",
     "pronunciation": "hoo-gahr",
     "meaning": "to play",
@@ -638,7 +638,7 @@
     "example": "Los niños juegan al fútbol - The children play soccer."
   },
   {
-    "id": "word039",
+    "id": "word059",
     "word": "vivir",
     "pronunciation": "vee-beer",
     "meaning": "to live",
@@ -649,7 +649,7 @@
     "example": "Vivo en un apartamento - I live in an apartment."
   },
   {
-    "id": "word040",
+    "id": "word060",
     "word": "coche",
     "pronunciation": "koh-cheh",
     "meaning": "car",
@@ -660,7 +660,7 @@
     "example": "Tengo un coche rojo - I have a red car."
   },
   {
-    "id": "word041",
+    "id": "word061",
     "word": "mesa",
     "pronunciation": "meh-sah",
     "meaning": "table",
@@ -671,7 +671,7 @@
     "example": "La mesa está en el comedor - The table is in the dining room."
   },
   {
-    "id": "word042",
+    "id": "word062",
     "word": "silla",
     "pronunciation": "see-yah",
     "meaning": "chair",
@@ -682,7 +682,7 @@
     "example": "Necesito una silla para sentarme - I need a chair to sit on."
   },
   {
-    "id": "word043",
+    "id": "word063",
     "word": "ventana",
     "pronunciation": "behn-tah-nah",
     "meaning": "window",
@@ -693,7 +693,7 @@
     "example": "La ventana está abierta - The window is open."
   },
   {
-    "id": "word044",
+    "id": "word064",
     "word": "puerta",
     "pronunciation": "pwehr-tah",
     "meaning": "door",
@@ -704,7 +704,7 @@
     "example": "La puerta está cerrada - The door is closed."
   },
   {
-    "id": "word045",
+    "id": "word065",
     "word": "piso",
     "pronunciation": "pee-soh",
     "meaning": "floor",
@@ -715,7 +715,7 @@
     "example": "El piso está limpio - The floor is clean."
   },
   {
-    "id": "word046",
+    "id": "word066",
     "word": "techo",
     "pronunciation": "teh-choh",
     "meaning": "ceiling",
@@ -726,7 +726,7 @@
     "example": "El techo está muy alto - The ceiling is very high."
   },
   {
-    "id": "word047",
+    "id": "word067",
     "word": "almuerzo",
     "pronunciation": "ahl-mwehr-thoh",
     "meaning": "lunch",
@@ -737,7 +737,7 @@
     "example": "Voy a preparar el almuerzo - I am going to prepare lunch."
   },
   {
-    "id": "word048",
+    "id": "word068",
     "word": "desayuno",
     "pronunciation": "deh-sah-yoo-noh",
     "meaning": "breakfast",
@@ -748,7 +748,7 @@
     "example": "Desayuno cereal todas las mañanas - I eat cereal for breakfast every morning."
   },
   {
-    "id": "word049",
+    "id": "word069",
     "word": "cena",
     "pronunciation": "seh-nah",
     "meaning": "dinner",
@@ -759,7 +759,7 @@
     "example": "La cena está lista - The dinner is ready."
   },
   {
-    "id": "word050",
+    "id": "word070",
     "word": "fruta",
     "pronunciation": "frooh-tah",
     "meaning": "fruit",
@@ -770,7 +770,7 @@
     "example": "Me encanta comer fruta - I love eating fruit."
   },
   {
-    "id": "word051",
+    "id": "word071",
     "word": "verdura",
     "pronunciation": "behr-doo-rah",
     "meaning": "vegetable",
@@ -781,7 +781,7 @@
     "example": "Ella cocina muchas verduras - She cooks a lot of vegetables."
   },
   {
-    "id": "word052",
+    "id": "word072",
     "word": "carne",
     "pronunciation": "kahr-neh",
     "meaning": "meat",
@@ -792,7 +792,7 @@
     "example": "Me gusta la carne de res - I like beef."
   },
   {
-    "id": "word053",
+    "id": "word073",
     "word": "pan",
     "pronunciation": "pahn",
     "meaning": "bread",
@@ -803,7 +803,7 @@
     "example": "Compro pan en la panadería - I buy bread at the bakery."
   },
   {
-    "id": "word054",
+    "id": "word074",
     "word": "agua",
     "pronunciation": "ah-gwah",
     "meaning": "water",
@@ -814,7 +814,7 @@
     "example": "Necesito agua - I need water."
   },
   {
-    "id": "word055",
+    "id": "word075",
     "word": "leche",
     "pronunciation": "leh-cheh",
     "meaning": "milk",
@@ -825,7 +825,7 @@
     "example": "Bebo leche todas las mañanas - I drink milk every morning."
   },
   {
-    "id": "word056",
+    "id": "word076",
     "word": "té",
     "pronunciation": "teh",
     "meaning": "tea",
@@ -836,7 +836,7 @@
     "example": "Tomamos té en la tarde - We drink tea in the afternoon."
   },
   {
-    "id": "word057",
+    "id": "word077",
     "word": "café",
     "pronunciation": "kah-feh",
     "meaning": "coffee",
@@ -847,7 +847,7 @@
     "example": "Me gusta el café con leche - I like coffee with milk."
   },
   {
-    "id": "word058",
+    "id": "word078",
     "word": "azúcar",
     "pronunciation": "ah-soo-kahr",
     "meaning": "sugar",
@@ -858,7 +858,7 @@
     "example": "¿Cuánto azúcar quieres en tu té? - How much sugar do you want in your tea?"
   },
   {
-    "id": "word059",
+    "id": "word079",
     "word": "sal",
     "pronunciation": "sahl",
     "meaning": "salt",
@@ -869,7 +869,7 @@
     "example": "Añade sal a la sopa - Add salt to the soup."
   },
   {
-    "id": "word060",
+    "id": "word080",
     "word": "pimienta",
     "pronunciation": "pee-mee-ehn-tah",
     "meaning": "pepper",
@@ -880,7 +880,7 @@
     "example": "Le pongo pimienta a la ensalada - I put pepper on the salad."
   },
   {
-    "id": "word061",
+    "id": "word081",
     "word": "libro",
     "pronunciation": "lee-broh",
     "meaning": "book",
@@ -891,7 +891,7 @@
     "example": "Estoy leyendo un libro - I am reading a book."
   },
   {
-    "id": "word062",
+    "id": "word082",
     "word": "cuaderno",
     "pronunciation": "kwah-dehr-noh",
     "meaning": "notebook",
@@ -902,7 +902,7 @@
     "example": "Escribe en tu cuaderno - Write in your notebook."
   },
   {
-    "id": "word063",
+    "id": "word083",
     "word": "pluma",
     "pronunciation": "plooh-mah",
     "meaning": "pen",
@@ -913,7 +913,7 @@
     "example": "Tengo una pluma roja - I have a red pen."
   },
   {
-    "id": "word064",
+    "id": "word084",
     "word": "papel",
     "pronunciation": "pah-pehl",
     "meaning": "paper",
@@ -924,7 +924,7 @@
     "example": "Dame un poco de papel - Give me some paper."
   },
   {
-    "id": "word065",
+    "id": "word085",
     "word": "carpeta",
     "pronunciation": "kahr-peh-tah",
     "meaning": "folder",
@@ -935,7 +935,7 @@
     "example": "Puse los papeles en la carpeta - I put the papers in the folder."
   },
   {
-    "id": "word066",
+    "id": "word086",
     "word": "escritorio",
     "pronunciation": "es-kree-toh-ree-oh",
     "meaning": "desk",
@@ -946,7 +946,7 @@
     "example": "El escritorio está desordenado - The desk is messy."
   },
   {
-    "id": "word067",
+    "id": "word087",
     "word": "pizarra",
     "pronunciation": "pee-thah-rrah",
     "meaning": "blackboard",
@@ -957,7 +957,7 @@
     "example": "Escribí en la pizarra - I wrote on the blackboard."
   },
   {
-    "id": "word068",
+    "id": "word088",
     "word": "aula",
     "pronunciation": "ow-lah",
     "meaning": "classroom",
@@ -968,7 +968,7 @@
     "example": "La clase está en el aula 12 - The class is in room 12."
   },
   {
-    "id": "word069",
+    "id": "word089",
     "word": "profesor",
     "pronunciation": "proh-feh-sohr",
     "meaning": "teacher (male)",
@@ -979,7 +979,7 @@
     "example": "El profesor explica la lección - The teacher explains the lesson."
   },
   {
-    "id": "word070",
+    "id": "word090",
     "word": "profesora",
     "pronunciation": "proh-feh-soh-rah",
     "meaning": "teacher (female)",
@@ -990,7 +990,7 @@
     "example": "La profesora está enseñando - The teacher is teaching."
   },
   {
-    "id": "word071",
+    "id": "word091",
     "word": "cuchara",
     "pronunciation": "koo-chah-rah",
     "meaning": "spoon",
@@ -1001,7 +1001,7 @@
     "example": "Necesito una cuchara para la sopa - I need a spoon for the soup."
   },
   {
-    "id": "word072",
+    "id": "word092",
     "word": "tenedor",
     "pronunciation": "teh-neh-dohr",
     "meaning": "fork",
@@ -1012,7 +1012,7 @@
     "example": "Usa el tenedor para comer - Use the fork to eat."
   },
   {
-    "id": "word073",
+    "id": "word093",
     "word": "cuchillo",
     "pronunciation": "koo-chee-yoh",
     "meaning": "knife",
@@ -1023,7 +1023,7 @@
     "example": "El cuchillo está en la mesa - The knife is on the table."
   },
   {
-    "id": "word074",
+    "id": "word094",
     "word": "plato",
     "pronunciation": "plah-toh",
     "meaning": "plate",
@@ -1034,7 +1034,7 @@
     "example": "Pon el plato en la mesa - Put the plate on the table."
   },
   {
-    "id": "word075",
+    "id": "word095",
     "word": "vaso",
     "pronunciation": "vah-soh",
     "meaning": "glass",
@@ -1045,7 +1045,7 @@
     "example": "El vaso está vacío - The glass is empty."
   },
   {
-    "id": "word076",
+    "id": "word096",
     "word": "taza",
     "pronunciation": "tah-thah",
     "meaning": "cup",
@@ -1056,7 +1056,7 @@
     "example": "Bebo café en la taza - I drink coffee from the cup."
   },
   {
-    "id": "word077",
+    "id": "word097",
     "word": "servilleta",
     "pronunciation": "sehr-vee-yeh-tah",
     "meaning": "napkin",
@@ -1067,7 +1067,7 @@
     "example": "Pásame una servilleta, por favor - Pass me a napkin, please."
   },
   {
-    "id": "word078",
+    "id": "word098",
     "word": "tenedor de postre",
     "pronunciation": "teh-neh-dohr deh pohs-treh",
     "meaning": "dessert fork",
@@ -1078,7 +1078,7 @@
     "example": "Usa el tenedor de postre para el pastel - Use the dessert fork for the cake."
   },
   {
-    "id": "word079",
+    "id": "word099",
     "word": "cucharón",
     "pronunciation": "koo-chah-rohn",
     "meaning": "ladle",
@@ -1089,7 +1089,7 @@
     "example": "El cucharón está en la olla - The ladle is in the pot."
   },
   {
-    "id": "word080",
+    "id": "word100",
     "word": "paellera",
     "pronunciation": "pah-eh-yeh-rah",
     "meaning": "paella pan",
@@ -1100,7 +1100,7 @@
     "example": "La paellera es grande - The paella pan"
   },
   {
-    "id": "word041",
+    "id": "word101",
     "word": "feliz",
     "pronunciation": "feh-leez",
     "meaning": "happy",
@@ -1111,7 +1111,7 @@
     "example": "Estoy feliz hoy - I am happy today."
   },
   {
-    "id": "word042",
+    "id": "word102",
     "word": "triste",
     "pronunciation": "trees-teh",
     "meaning": "sad",
@@ -1122,7 +1122,7 @@
     "example": "Ella está triste - She is sad."
   },
   {
-    "id": "word043",
+    "id": "word103",
     "word": "enojado",
     "pronunciation": "eh-noh-hah-doh",
     "meaning": "angry",
@@ -1133,7 +1133,7 @@
     "example": "Mi hermano está enojado - My brother is angry."
   },
   {
-    "id": "word044",
+    "id": "word104",
     "word": "cansado",
     "pronunciation": "kahn-sah-doh",
     "meaning": "tired",
@@ -1144,7 +1144,7 @@
     "example": "Estoy cansado después de trabajar - I am tired after working."
   },
   {
-    "id": "word045",
+    "id": "word105",
     "word": "aburrido",
     "pronunciation": "ah-boo-ree-doh",
     "meaning": "bored",
@@ -1155,7 +1155,7 @@
     "example": "Estoy aburrido en casa - I am bored at home."
   },
   {
-    "id": "word046",
+    "id": "word106",
     "word": "emocionado",
     "pronunciation": "eh-moh-see-oh-nah-doh",
     "meaning": "excited",
@@ -1166,7 +1166,7 @@
     "example": "Estoy emocionado por el viaje - I am excited for the trip."
   },
   {
-    "id": "word047",
+    "id": "word107",
     "word": "nervioso",
     "pronunciation": "nehr-vyoh-soh",
     "meaning": "nervous",
@@ -1177,7 +1177,7 @@
     "example": "Estoy nervioso antes del examen - I am nervous before the exam."
   },
   {
-    "id": "word048",
+    "id": "word108",
     "word": "orgulloso",
     "pronunciation": "or-goo-yoh-soh",
     "meaning": "proud",
@@ -1188,7 +1188,7 @@
     "example": "Estoy orgulloso de ti - I am proud of you."
   },
   {
-    "id": "word049",
+    "id": "word109",
     "word": "preocupado",
     "pronunciation": "preh-oh-koo-pah-doh",
     "meaning": "worried",
@@ -1199,7 +1199,7 @@
     "example": "Estoy preocupado por el examen - I am worried about the exam."
   },
   {
-    "id": "word050",
+    "id": "word110",
     "word": "tranquilo",
     "pronunciation": "trahn-kee-loh",
     "meaning": "calm",
@@ -1210,7 +1210,7 @@
     "example": "Estoy tranquilo después de meditar - I am calm after meditating."
   },
   {
-    "id": "word051",
+    "id": "word112",
     "word": "ocupado",
     "pronunciation": "oh-koo-pah-doh",
     "meaning": "busy",
@@ -1221,7 +1221,7 @@
     "example": "Estoy ocupado trabajando - I am busy working."
   },
   {
-    "id": "word052",
+    "id": "word112",
     "word": "alegre",
     "pronunciation": "ah-leh-greh",
     "meaning": "cheerful",
@@ -1232,7 +1232,7 @@
     "example": "Ella es muy alegre - She is very cheerful."
   },
   {
-    "id": "word053",
+    "id": "word114",
     "word": "enfermo",
     "pronunciation": "en-fehr-moh",
     "meaning": "sick",
@@ -1243,7 +1243,7 @@
     "example": "Estoy enfermo y no puedo salir - I am sick and cannot go out."
   },
   {
-    "id": "word054",
+    "id": "word115",
     "word": "rico",
     "pronunciation": "ree-koh",
     "meaning": "rich, delicious",
@@ -1254,7 +1254,7 @@
     "example": "Este pastel está rico - This cake is delicious."
   },
   {
-    "id": "word055",
+    "id": "word116",
     "word": "solitario",
     "pronunciation": "soh-lee-tah-ree-oh",
     "meaning": "lonely",
@@ -1265,7 +1265,7 @@
     "example": "Me siento solitario en casa - I feel lonely at home."
   },
   {
-    "id": "word056",
+    "id": "word117",
     "word": "ansioso",
     "pronunciation": "an-syoh-soh",
     "meaning": "anxious",
@@ -1276,7 +1276,7 @@
     "example": "Estoy ansioso por saber los resultados - I am anxious to know the results."
   },
   {
-    "id": "word057",
+    "id": "word118",
     "word": "sorprendido",
     "pronunciation": "sohr-prehn-dee-doh",
     "meaning": "surprised",
@@ -1287,7 +1287,7 @@
     "example": "Estoy sorprendido por el regalo - I am surprised by the gift."
   },
   {
-    "id": "word058",
+    "id": "word119",
     "word": "desesperado",
     "pronunciation": "deh-seh-speh-rah-doh",
     "meaning": "desperate",
@@ -1298,7 +1298,7 @@
     "example": "Estoy desesperado por encontrar una solución - I am desperate to find a solution."
   },
   {
-    "id": "word059",
+    "id": "word120",
     "word": "fascinado",
     "pronunciation": "fah-see-nah-doh",
     "meaning": "fascinated",
@@ -1309,7 +1309,7 @@
     "example": "Estoy fascinado con el arte - I am fascinated by the art."
   },
   {
-    "id": "word081",
+    "id": "word121",
     "word": "ir",
     "pronunciation": "eer",
     "meaning": "to go",
@@ -1320,7 +1320,7 @@
     "example": "Voy al mercado - I am going to the market."
   },
   {
-    "id": "word082",
+    "id": "word122",
     "word": "ver",
     "pronunciation": "behr",
     "meaning": "to see",
@@ -1331,7 +1331,7 @@
     "example": "Veo una película - I am watching a movie."
   },
   {
-    "id": "word083",
+    "id": "word123",
     "word": "hacer",
     "pronunciation": "ah-sehr",
     "meaning": "to do, to make",
@@ -1342,7 +1342,7 @@
     "example": "Hago ejercicio todos los días - I do exercise every day."
   },
   {
-    "id": "word084",
+    "id": "word124",
     "word": "comer",
     "pronunciation": "koh-mehr",
     "meaning": "to eat",
@@ -1353,7 +1353,7 @@
     "example": "Comemos pizza en la noche - We eat pizza at night."
   },
   {
-    "id": "word085",
+    "id": "word125",
     "word": "beber",
     "pronunciation": "beh-behr",
     "meaning": "to drink",
@@ -1364,7 +1364,7 @@
     "example": "Bebo agua todos los días - I drink water every day."
   },
   {
-    "id": "word086",
+    "id": "word126",
     "word": "escribir",
     "pronunciation": "eh-skribir",
     "meaning": "to write",
@@ -1375,7 +1375,7 @@
     "example": "Escribo una carta - I write a letter."
   },
   {
-    "id": "word087",
+    "id": "word127",
     "word": "leer",
     "pronunciation": "leh-ehr",
     "meaning": "to read",
@@ -1386,7 +1386,7 @@
     "example": "Leo libros en mi tiempo libre - I read books in my free time."
   },
   {
-    "id": "word088",
+    "id": "word128",
     "word": "vivir",
     "pronunciation": "vee-veer",
     "meaning": "to live",
@@ -1397,7 +1397,7 @@
     "example": "Vivo en Madrid - I live in Madrid."
   },
   {
-    "id": "word089",
+    "id": "word129",
     "word": "trabajar",
     "pronunciation": "trah-bah-har",
     "meaning": "to work",
@@ -1408,7 +1408,7 @@
     "example": "Trabajo en una oficina - I work in an office."
   },
   {
-    "id": "word090",
+    "id": "word130",
     "word": "salir",
     "pronunciation": "sah-leer",
     "meaning": "to leave, to go out",
@@ -1419,7 +1419,7 @@
     "example": "Salgo de la casa a las ocho - I leave the house at eight."
   },
   {
-    "id": "word091",
+    "id": "word131",
     "word": "poner",
     "pronunciation": "poh-nehr",
     "meaning": "to put",
@@ -1430,7 +1430,7 @@
     "example": "Pongo las llaves en la mesa - I put the keys on the table."
   },
   {
-    "id": "word092",
+    "id": "word132",
     "word": "decidir",
     "pronunciation": "deh-see-deer",
     "meaning": "to decide",
@@ -1441,7 +1441,7 @@
     "example": "Decido ir al cine - I decide to go to the movies."
   },
   {
-    "id": "word093",
+    "id": "word133",
     "word": "verbo",
     "pronunciation": "behr-boh",
     "meaning": "verb",
@@ -1452,7 +1452,7 @@
     "example": "El verbo 'comer' es regular - The verb 'comer' is regular."
   },
   {
-    "id": "word094",
+    "id": "word134",
     "word": "tema",
     "pronunciation": "teh-mah",
     "meaning": "topic",
@@ -1463,7 +1463,7 @@
     "example": "El tema de la clase es la gramática - The topic of the class is grammar."
   },
   {
-    "id": "word095",
+    "id": "word135",
     "word": "cambiar",
     "pronunciation": "kahm-byahr",
     "meaning": "to change",
@@ -1474,7 +1474,7 @@
     "example": "Voy a cambiar la ropa - I am going to change the clothes."
   },
   {
-    "id": "word096",
+    "id": "word136",
     "word": "empezar",
     "pronunciation": "em-peh-thahr",
     "meaning": "to begin",
@@ -1485,7 +1485,7 @@
     "example": "Empiezo el trabajo mañana - I begin the work tomorrow."
   },
   {
-    "id": "word097",
+    "id": "word137",
     "word": "terminar",
     "pronunciation": "tehr-mee-nahr",
     "meaning": "to finish",
@@ -1496,7 +1496,7 @@
     "example": "Termino mi tarea después de cenar - I finish my homework after dinner."
   },
   {
-    "id": "word098",
+    "id": "word138",
     "word": "encontrar",
     "pronunciation": "en-kon-trahr",
     "meaning": "to find",
@@ -1507,7 +1507,7 @@
     "example": "Encontré mis llaves en el bolso - I found my keys in the bag."
   },
   {
-    "id": "word099",
+    "id": "word139",
     "word": "preparar",
     "pronunciation": "preh-pah-rah",
     "meaning": "to prepare",
@@ -1518,7 +1518,7 @@
     "example": "Estoy preparando la comida - I am preparing the food."
   },
   {
-    "id": "word100",
+    "id": "word140",
     "word": "usar",
     "pronunciation": "oo-sahr",
     "meaning": "to use",
