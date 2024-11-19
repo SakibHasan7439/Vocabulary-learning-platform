@@ -7,6 +7,8 @@ import Register from "../Pages/Register";
 import Profile from "../Pages/Profile";
 import LetsLearn from "../Pages/LetsLearn";
 import Lessons from "../Pages/Lessons";
+import Tutorials from "../Pages/Tutorials";
+import PrivateRoute from "./PrivateRoute";
 
 
 const Router = createBrowserRouter([
@@ -42,7 +44,12 @@ const Router = createBrowserRouter([
                 path: "/lesson/:lesson_no",
                 element: <Lessons></Lessons>,
                 loader: ()=>fetch('/spanish_vocabulary_data.json')
-            }
+            },
+
+            {
+                path: "/tutorial",
+                element: <PrivateRoute><Tutorials></Tutorials></PrivateRoute>,
+            },
         ]
     }
 ])
