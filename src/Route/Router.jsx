@@ -10,6 +10,7 @@ import Lessons from "../Pages/Lessons";
 import Tutorials from "../Pages/Tutorials";
 import PrivateRoute from "./PrivateRoute";
 import AboutUs from "../Pages/AboutUs";
+import ForgetPassword from "../Pages/ForgetPassword";
 
 
 const Router = createBrowserRouter([
@@ -55,6 +56,11 @@ const Router = createBrowserRouter([
             {
                 path: "/aboutUs",
                 element: <AboutUs></AboutUs>,
+            },
+
+            {
+                path: "/forgetPass",
+                element: <ForgetPassword></ForgetPassword>,
             },
         ]
     }

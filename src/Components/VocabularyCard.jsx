@@ -13,14 +13,14 @@ const VocabularyCard = ({ lesson }) => {
   } = lesson;
 
   return (
-    <div className="col-span-12 md:col-span-4 lg:col-span-3">
+    <div className="col-span-12 mb-8 md:col-span-4 lg:col-span-3">
       <div
-        className={`card border rounded-md ${
+        className={`card shadow-lg rounded-md ${
           difficulty === "difficult"
-            ? "bg-red-300"
+            ? "bg-red-300 shadow-red-400"
             : difficulty === "medium"
-            ? "bg-yellow-300"
-            : "bg-green-300"
+            ? "bg-yellow-300 shadow-yellow-400"
+            : "bg-green-300 shadow-green-400"
         }`}
       >
         <div className="card-body h-[268px]">

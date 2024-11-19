@@ -1,14 +1,16 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import bgImage from "../assets/bg.jpg"
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
+    const [email, setEmail] = useState('');
     const { signInUser, signInWithGoogle } = useContext(AuthContext);
     const location = useLocation();
+
 
     const handleSignIn = (e) =>{
         e.preventDefault();
@@ -40,6 +42,7 @@ const Login = () => {
         })
     }
 
+
   return (
     <div className="hero min-h-screen" style={{backgroundImage: `url(${bgImage})`}}>
       <div className="hero-content flex-col">
@@ -57,6 +60,7 @@ const Login = () => {
                 placeholder="email"
                 name="email"
                 className="input input-bordered"
+                onChange={(e)=> setEmail(e.target.value)}
                 required
               />
             </div>
@@ -72,9 +76,9 @@ const Login = () => {
                 required
               />
               <label className="label">
-                <a href="#" className="label-text-alt link link-hover">
+                <Link to={"/forgetPass"}  state={{ email }} className="label-text-alt link link-hover">
                   Forgot password?
-                </a>
+                </Link>
               </label>
             </div>
             <div className="form-control mt-6">

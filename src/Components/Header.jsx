@@ -19,7 +19,14 @@ const Header = () => {
     }
 
   return (
-    <div className="navbar bg-blue-950 text-white">
+    <div className=" bg-blue-950 text-white">
+        {
+          user && <div className="flex text-center font-semibold text-xl lg:text-2xl flex-col">
+            <p>Welcome</p>
+            <p>{user.displayName}</p>
+          </div>
+        }
+      <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -67,14 +74,12 @@ const Header = () => {
       <div className="navbar-end text-lg">
         {
             user ? <div className="flex items-center gap-3">
-                <div className="text-white">
-                    <p>Welcome</p>
-                    <p>{user.displayName}</p>
-                </div>
+                <img className="w-12 h-12 rounded-full object-cover" src={user?.photoURL ? user.photoURL : ""} alt="image" />
                 <Link onClick={handleSignOut} className="bg-white text-black px-4 py-2 rounded-md">LogOut</Link>
             </div>
             : <Link className="bg-white text-black px-4 py-2 rounded-md" to={"/login"}>Login</Link>
         }
+      </div>
       </div>
     </div>
   );

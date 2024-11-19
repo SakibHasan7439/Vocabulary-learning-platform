@@ -4,9 +4,9 @@ import Footer from "../Components/Footer";
 
 const MainLayout = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="">
             <Header></Header>
-            <div className="min-h-[calc(100vh-400px)]">
+            <div className="min-h-[calc(100vh-400px)] max-w-7xl mx-auto">
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
