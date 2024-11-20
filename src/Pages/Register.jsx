@@ -2,46 +2,50 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Register = () => {
-    const navigate = useNavigate();
-    const { registerNewAccount, updateUserProfile } = useContext(AuthContext);
-    const [error, setError] = useState('');
-    const regex = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
+  const navigate = useNavigate();
+  const { registerNewAccount, updateUserProfile } = useContext(AuthContext);
+  const [error, setError] = useState("");
+  const regex = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
 
-    const handleRegisterUser = (e) =>{
-        e.preventDefault();
-        const name = e.target.name.value;
-        const email = e.target.email.value;
-        const photoUrl = e.target.photoUrl.value;
-        const password = e.target.password.value;
-        console.log(e.target.email);
-        setError('');
-        if(password.length < 6){
-            setError("Password must be 6 or more character long");
-            return;
-        }
-
-        if(!regex.test(password)){
-            setError("Password must contain at least one uppercase and lowercase letter");
-            return;
-        }
-
-
-        registerNewAccount(email, password)
-        .then((res)=>{
-            toast.success('Successfully Registered');
-            console.log(res);
-            updateUserProfile(name, photoUrl);
-            return navigate('/');
-            
-        })
-        .catch((err)=>{
-            toast.error(err.message);
-        })
+  const handleRegisterUser = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const photoUrl = e.target.photoUrl.value;
+    const password = e.target.password.value;
+    console.log(e.target.email);
+    setError("");
+    if (password.length < 6) {
+      setError("Password must be 6 or more character long");
+      return;
     }
+
+    if (!regex.test(password)) {
+      setError(
+        "Password must contain at least one uppercase and lowercase letter"
+      );
+      return;
+    }
+
+    registerNewAccount(email, password)
+      .then((res) => {
+        toast.success("Successfully Registered");
+        console.log(res);
+        updateUserProfile(name, photoUrl);
+        return navigate("/");
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
+  };
   return (
     <div className="hero bg-base-200 min-h-screen">
+      <Helmet>
+        <title>lingo bingo | Register</title>
+      </Helmet>
       <div className="hero-content flex-col">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Register now!</h1>

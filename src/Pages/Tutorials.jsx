@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Tutorials = () => {
     return (
         <div>
+            <Helmet>
+                <title>lingo bingo | Tutorials</title>
+            </Helmet>
             <h2 className="text-center text-2xl font-semibold md:text-3xl py-4 mb-6 md:mb-8 lg:mb-16">
                 Alphabet Adventure
             </h2>

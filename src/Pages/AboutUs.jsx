@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet-async";
+
 const AboutUs = () => {
   return (
     <div className="md:w-[80%] mx-auto lg:w-[70%]">
+      <Helmet>
+        <title>lingo bingo | AboutUs</title>
+      </Helmet>
       <h2 className="font-semibold text-center text-xl md:text-2xl my-4">
         About Me{" "}
       </h2>

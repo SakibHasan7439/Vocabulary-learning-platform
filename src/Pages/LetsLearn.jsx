@@ -1,12 +1,16 @@
 import { useContext } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const LetsLearn = () => {
     const { user } = useContext(AuthContext);
     const lesson = useLoaderData();
     return (
         <div>
+            <Helmet>
+                <title>lingo bingo | LetsLearn</title>
+            </Helmet>
             <h2 className="text-center mb-4 md:mb-8 py-4 text-2xl md:text-4xl font-semibold">
                 Let&apos;s Learn
             </h2>

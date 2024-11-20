@@ -4,47 +4,47 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
-    const navigate = useNavigate();
-    const [email, setEmail] = useState('');
-    const { signInUser, signInWithGoogle } = useContext(AuthContext);
-    const location = useLocation();
+  const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const { signInUser, signInWithGoogle } = useContext(AuthContext);
+  const location = useLocation();
 
+  const handleSignIn = (e) => {
+    e.preventDefault();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
 
-    const handleSignIn = (e) =>{
-        e.preventDefault();
-        const email = e.target.email.value;
-        const password = e.target.password.value;
+    signInUser(email, password)
+      .then(() => {
+        toast.success("Sign in successful");
+        e.target.reset();
+        return navigate(location?.state ? location.state : "/");
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
+  };
 
-        signInUser(email, password)
-        .then(()=>{
-            toast.success("Sign in successful");
-            e.target.reset();
-            return navigate(location?.state ? location.state : "/");
-            
-        })
-        .catch((err)=>{
-            toast.error(err.message);
-        })
-    }
-
-    const handleSignInWithGoogle = () =>{
-        signInWithGoogle()
-        .then((res)=>{
-          toast.success("SignIn successful");
-          console.log(res);
-          return navigate('/');
-           
-        })
-        .catch((err)=>{
-            toast.error(err.message);
-        })
-    }
-
+  const handleSignInWithGoogle = () => {
+    signInWithGoogle()
+      .then((res) => {
+        toast.success("SignIn successful");
+        console.log(res);
+        return navigate("/");
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
+  };
 
   return (
     <div className="hero min-h-screen">
+      <Helmet>
+        <title>lingo bingo | Login</title>
+      </Helmet>
       <div className="hero-content flex-col">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
@@ -60,7 +60,7 @@ const Login = () => {
                 placeholder="email"
                 name="email"
                 className="input input-bordered"
-                onChange={(e)=> setEmail(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </div>
@@ -76,20 +76,34 @@ const Login = () => {
                 required
               />
               <label className="label">
-                <Link to={"/forgetPass"}  state={{ email }} className="label-text-alt link link-hover">
+                <Link
+                  to={"/forgetPass"}
+                  state={{ email }}
+                  className="label-text-alt link link-hover"
+                >
                   Forgot password?
                 </Link>
               </label>
             </div>
             <div className="form-control mt-6">
               <button className="btn bg-blue-950 text-white mb-2">Login</button>
-              <button onClick={handleSignInWithGoogle} className="bg-white px-4 py-2 shadow-sm border border-black rounded-md flex justify-center items-center gap-2"
+              <button
+                onClick={handleSignInWithGoogle}
+                className="bg-white px-4 py-2 shadow-sm border border-black rounded-md flex justify-center items-center gap-2"
               >
                 <FcGoogle></FcGoogle>
                 <span>Sign in with Google</span>
               </button>
             </div>
-            <p>New to this website ? <Link to={"/register"} className="font-semibold text-blue-950 underline">Register Now</Link></p>
+            <p>
+              New to this website ?{" "}
+              <Link
+                to={"/register"}
+                className="font-semibold text-blue-950 underline"
+              >
+                Register Now
+              </Link>
+            </p>
           </form>
         </div>
       </div>
