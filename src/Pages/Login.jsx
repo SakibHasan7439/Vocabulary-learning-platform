@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import bgImage from "../assets/bg.jpg"
+
 import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
@@ -44,10 +44,10 @@ const Login = () => {
 
 
   return (
-    <div className="hero min-h-screen" style={{backgroundImage: `url(${bgImage})`}}>
+    <div className="hero min-h-screen">
       <div className="hero-content flex-col">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold text-white">Login now!</h1>
+          <h1 className="text-5xl font-bold">Login now!</h1>
         </div>
         <div className="card bg-base-100 max-w-sm md:w-[350px] shrink-0 shadow-2xl">
           <form onSubmit={handleSignIn} className="card-body">

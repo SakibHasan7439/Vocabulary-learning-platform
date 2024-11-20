@@ -1,8 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
-import { useContext } from "react";
-import { AuthContext } from "../provider/AuthProvider";
-import toast from "react-hot-toast";
+import { Link, NavLink } from "react-router-dom"
+import logo from "../assets/logo.png"
+import { useContext } from "react"
+import { AuthContext } from "../provider/AuthProvider"
+import toast from "react-hot-toast"
 import "./header.css"
 import "animate.css"
 
@@ -20,7 +20,7 @@ const Header = () => {
     }
 
   return (
-    <div className=" bg-blue-950 text-white">
+    <div className="bg-orange-400 text-white">
         {
           user && <div className="flex text-center font-semibold text-xl lg:text-2xl flex-col animate__animated animate__backInDown">
             <p>Welcome</p>

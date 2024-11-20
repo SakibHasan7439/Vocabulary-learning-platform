@@ -15,7 +15,7 @@ const LetsLearn = () => {
                     lesson.map((data)=> <Link 
                     key={data.id}
                     to={user ? `/lesson/${data.lesson_no}` : "/login"}
-                     className="bg-white text-center font-bold text-xl md:text-2xl md:col-span-4 lg:col-span-3 col-span-6 px-8 w-full py-4 rounded-md shadow-md shadow-blue-950">Lesson-{data.lesson_no}</Link>)
+                     className="bg-orange-500 text-white text-center font-bold text-xl md:text-2xl md:col-span-4 lg:col-span-3 col-span-6 px-8 w-full py-4 rounded-md hover:bg-orange-600 shadow-md shadow-blue-950">Lesson-{data.lesson_no}</Link>)
                 }
 
             </div>
@@ -27,7 +27,7 @@ const LetsLearn = () => {
                     src="https://www.youtube.com/embed/dlazjKbt40Q?si=aMPwcElVYS4nLCtX" frameBorder="0"></iframe>
                 </div>
                 <div className="text-center">
-                    <Link to={user ? "/tutorial" : "/login"} className="bg-blue-950 text-white font-semibold px-5 py-3 rounded-md">View More</Link>
+                    <Link to={user ? "/tutorial" : "/login"} className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-3 rounded-md">View More</Link>
                 </div>
             </div>
         </div>
