@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { AiFillSound } from "react-icons/ai";
 
 const VocabularyCard = ({ lesson }) => {
   const {
@@ -18,7 +19,7 @@ const VocabularyCard = ({ lesson }) => {
 
   return (
     <div className="col-span-12 mb-8 md:col-span-4 lg:col-span-3">
-      <div onClick={handleClick}
+      <div
         className={`card shadow-lg cursor-pointer rounded-md ${
           difficulty === "difficult"
             ? "bg-red-300 shadow-red-400"
@@ -32,8 +33,9 @@ const VocabularyCard = ({ lesson }) => {
           <p className="font-semibold">Meaning: {meaning}</p>
           <p className="font-semibold">Pronunciation: {pronunciation}</p>
           <p className="font-semibold">Part of speech: {part_of_speech}</p>
-          <div className="card-actions justify-start">
+          <div className="card-actions flex justify-between items-center">
             <button onClick={() => document.getElementById("my_modal_5").showModal()} className="btn bg-white text-black">When to say</button>
+            <AiFillSound onClick={handleClick} className="text-3xl hover:text-black text-white"></AiFillSound>
           </div>
         </div>
       </div>
