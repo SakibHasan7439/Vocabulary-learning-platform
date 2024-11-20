@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { Link } from "react-router-dom";
+import userImg from "../assets/user.png"
 
 const Profile = () => {
   const { user } = useContext(AuthContext);
@@ -13,7 +14,7 @@ const Profile = () => {
       <div className="md:w-[50%] lg:w-[30%] rounded-lg shadow-lg shadow-sky-800 mx-auto text-center my-6 bg-blue-300 py-16">
         <img
           className="w-20 h-20 object-cover mx-auto rounded-full"
-          src={user.photoURL}
+          src={user?.photoURL ? user.photoURL : userImg}
           alt="user image"
         />
         <p className="md:text-xl text-sky-950 font-semibold">{user.displayName}</p>

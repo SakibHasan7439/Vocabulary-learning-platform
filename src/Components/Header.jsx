@@ -5,6 +5,7 @@ import { AuthContext } from "../provider/AuthProvider"
 import toast from "react-hot-toast"
 import "./header.css"
 import "animate.css"
+import userImg from "../assets/user.png"
 
 const Header = () => {
     const { user, signOutUser } = useContext(AuthContext);
@@ -75,7 +76,7 @@ const Header = () => {
       <div className="navbar-end text-lg">
         {
             user ? <div className="flex items-center gap-3">
-                <img className="w-12 h-12 rounded-full object-cover" src={user?.photoURL ? user.photoURL : ""} alt="image" />
+                <img className="w-12 h-12 rounded-full object-cover" src={user?.photoURL ? user.photoURL : userImg} alt="image" />
                 <Link onClick={handleSignOut} className="bg-white text-black px-4 py-2 rounded-md">LogOut</Link>
             </div>
             : <Link className="bg-white text-black px-4 py-2 rounded-md" to={"/login"}>Login</Link>
