@@ -1,4 +1,4 @@
-import bgImage from "../assets/orange.avif"
+import bgImage from "../assets/orange.png"
 
 const Footer = () => {
   return (

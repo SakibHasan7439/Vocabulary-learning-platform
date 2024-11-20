@@ -48,11 +48,11 @@ const VocabularyCard = ({ lesson }) => {
           </p>
           <p>When to say: {when_to_say}</p>
           <p>Example: {example}</p>
-          <div className="modal-action justify-center">
+          <div className="modal-action justify-start">
             <form method="dialog">
-              <Link to={"/learn"} className=" bg-blue-950 text-white px-6 py-3 rounded-md">Back to lesson</Link>
+              <Link to={"/learn"} className=" bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md">Back to lesson</Link>
               <span className="mx-4">Or</span>
-              <button className="px-6 rounded-md py-3 bg-blue-950 text-white">Close</button>
+              <button className="px-6 rounded-md py-3 bg-green-400 hover:bg-green-500 text-white">Close</button>
             </form>
           </div>
         </div>

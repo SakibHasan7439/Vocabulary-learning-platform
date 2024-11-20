@@ -71,7 +71,7 @@ const Tutorials = () => {
                 </div>
             </div>
 
-            <Link className="font-semibold block mb-8 mx-auto text-center w-[200px] px-2 py-4 rounded-md bg-yellow-300" to={"/learn"}>Learn Vocabularies</Link>
+            <Link className="font-semibold block md:text-lg mb-8 mx-auto text-center w-[200px] px-2 py-4 rounded-md bg-yellow-300 hover:bg-yellow-400" to={"/learn"}>Learn Vocabularies</Link>
         </div>
     );
 };
