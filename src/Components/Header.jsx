@@ -1,9 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/feature.png";
+import logo from "../assets/logo.png";
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import toast from "react-hot-toast";
 import "./header.css"
+import "animate.css"
 
 const Header = () => {
     const { user, signOutUser } = useContext(AuthContext);
@@ -21,7 +22,7 @@ const Header = () => {
   return (
     <div className=" bg-blue-950 text-white">
         {
-          user && <div className="flex text-center font-semibold text-xl lg:text-2xl flex-col">
+          user && <div className="flex text-center font-semibold text-xl lg:text-2xl flex-col animate__animated animate__backInDown">
             <p>Welcome</p>
             <p>{user.displayName}</p>
           </div>

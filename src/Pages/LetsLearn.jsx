@@ -5,7 +5,6 @@ import { AuthContext } from "../provider/AuthProvider";
 const LetsLearn = () => {
     const { user } = useContext(AuthContext);
     const lesson = useLoaderData();
-    console.log(lesson);
     return (
         <div>
             <h2 className="text-center mb-4 md:mb-8 py-4 text-2xl md:text-4xl font-semibold">

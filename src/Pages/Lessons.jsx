@@ -21,7 +21,7 @@ const Lessons = () => {
             <div className="grid grid-cols-12 gap-4">
                 {
                     lessonData.map((data)=><VocabularyCard 
-                        key={data.word}
+                        key={data.id}
                         lesson={data}>  
                     </VocabularyCard>)
                 }
