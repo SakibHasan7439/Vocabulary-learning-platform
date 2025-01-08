@@ -1,7 +1,7 @@
 1️⃣**Project Title**: Lingo Bingo Vocabulary
 
 **Project description:**
-Lingo Bingo Vocabulary is an interactive vocabulary learning platform that helps learning fun, this website contains multiple features 
+Lingo Bingo Vocabulary is an interactive vocabulary learning platform that has make learning fun, this website contains multiple features 
 for learning, like video tutorials, word showcasing using cards and also voice pronounciation.
 
 **Live website link**: ([https://lingo-bingo-authentication.web.app/])
